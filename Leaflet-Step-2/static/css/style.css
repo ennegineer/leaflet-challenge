@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .legend {
+    padding: 10px;
+    /* font-family: Sanchez, serif; */
+    font-size: 16px;
+    /* font-weight: bold; */
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* This one is <20 */
+  .legend .depth1 {
+    color: #00d6eb;
+    font-weight: bold;
+  }
+  
+  /* This one is <40 >20 */
+  .legend .depth2 { 
+    color: #01a2b2;
+    font-weight: bold;
+  }
+  
+  /* This one is <70 >40 */
+  .legend .depth3 {
+    color: #027e8a;
+    font-weight: bold;
+  }
+  
+  /* This one is <100 >70 */
+  .legend .depth4 {
+    color: #005b64;
+    font-weight: bold;
+  }
+  
+  /* This one is >100 */
+  .legend .depth5 {
+    color: #000000;
+    font-weight: bold;
+  }
+  
